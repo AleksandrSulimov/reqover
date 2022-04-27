@@ -170,7 +170,7 @@
                                 {
                                     key: key, 
                                     value: value,
-                                    section: key.replace(' ', '-').toLowerCase(),
+                                    section: key.replace(' ', '-').replace(',', '-').toLowerCase(),
                                     name: 'Main'
                                 });%> <%});%>
                             </div>
@@ -182,7 +182,7 @@
                                 {
                                     key: key, 
                                     value: value,
-                                    section: key.replace(' ', '-').toLowerCase(),
+                                    section: key.replace(' ', '-').replace(',', '-').toLowerCase(),
                                     name: 'Missing'
                                 });%> <%});%>
                             </div>
@@ -193,7 +193,7 @@
                                 {
                                     key: key, 
                                     value: value,
-                                    section: key.replace(' ', '-').toLowerCase(),
+                                    section: key.replace(' ', '-').replace(',', '-').toLowerCase(),
                                     name: 'Partial'
                                 });%> <%});%>
                             </div>
@@ -204,7 +204,7 @@
                                 {
                                     key: key, 
                                     value: value,
-                                    section: key.replace(' ', '-').toLowerCase(),
+                                    section: key.replace(' ', '-').replace(',', '-').toLowerCase(),
                                     name: 'Full'
                                 });%> <%});%>
                             </div>
